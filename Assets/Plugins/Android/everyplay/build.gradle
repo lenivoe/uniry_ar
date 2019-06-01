@@ -1,0 +1,60 @@
+// UNITY EXPORT COMPATIBLE
+apply plugin: 'com.android.library'
+
+repositories {
+    mavenCentral()
+}
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.0.0'
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+}
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "25.0.3"
+    defaultPublishConfig "release"
+
+    defaultConfig {
+        versionCode 1600
+        versionName "1.6.0"
+        minSdkVersion 16
+    }
+
+    buildTypes {
+        debug {
+            debuggable true
+            minifyEnabled false
+        }
+
+        release {
+            debuggable false
+            minifyEnabled true
+            proguardFile getDefaultProguardFile('proguard-android.txt')
+            proguardFile 'proguard-project.txt'
+        }
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            aidl.srcDirs = ['src']
+            renderscript.srcDirs = ['src']
+            res.srcDirs = ['res']
+            jniLibs.srcDirs = ['libs']
+        }
+
+        lintOptions {
+            abortOnError false
+        }
+    }
+}

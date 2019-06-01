@@ -1,0 +1,109 @@
+{
+	"videosInfo" : [
+		{
+			"target" : { "path" : "14_12_2018/01_zuby_mudrosti.png" },
+			"video" : {
+				"path" : "https://yadi.sk/i/23CVwAK2PS7JdQ",
+				"scale_type" : "FitHeight"
+			}
+		},
+		{
+			"target" : { "path" : "14_12_2018/02_allergiya_-_1_kratko.png" },
+			"video" : {
+				"path" : "https://yadi.sk/i/k9baw8M5Tgp46g",
+				"scale_type" : "FitHeight"
+			}
+		},
+		{
+			"target" : { "path" : "14_12_2018/03_raznye_lica.png" },
+			"video" : {
+				"path" : "https://yadi.sk/i/rMd6J3cw-zWznA",
+				"scale_type" : "FitHeight"
+			}
+		},
+		{
+			"target" : { "path" : "14_12_2018/04_evolyuciya_polnoty.png" },
+			"video" : {
+				"path" : "https://yadi.sk/i/l7e5H2eMaOJSVA",
+				"scale_type" : "FitHeight"
+			}
+		},
+		{
+			"target" : { "path" : "14_12_2018/05_izbavlenie_ot_izzhogi_bez_lekarstv.png" },
+			"video" : {
+				"path" : "https://yadi.sk/i/Qa-NEug6-ti_Yg",
+				"scale_type" : "FitHeight"
+			}
+		},
+		{
+			"target" : { "path" : "14_12_2018/06_pishhevaritelnaya_sistema_i_supersila.png" },
+			"video" : {
+				"path" : "https://yadi.sk/i/MrBqIEKR7oDQdw",
+				"scale_type" : "FitHeight"
+			}
+		},
+		{
+			"target" : { "path" : "14_12_2018/07_oshibki_chuvstvitelnosti.png" },
+			"video" : {
+				"path" : "https://yadi.sk/i/iGn41hz6v6Magg",
+				"scale_type" : "FitHeight"
+			}
+		},
+		{
+			"target" : { "path" : "14_12_2018/08_sendvich_s_meduzoj.png" },
+			"video" : {
+				"path" : "https://yadi.sk/i/shyTeJCgTrM5GA",
+				"scale_type" : "FitHeight"
+			}
+		},
+		{
+			"target" : { "path" : "14_12_2018/09_oshibki_koordinacii.png" },
+			"video" : {
+				"path" : "https://yadi.sk/i/H1vA33sKjhNL4g",
+				"scale_type" : "FitHeight"
+			}
+		},
+		{
+			"target" : { "path" : "14_12_2018/10_rasteniya_v_kosmose.png" },
+			"video" : {
+				"path" : "https://yadi.sk/i/cFvvLRgDgpDSUQ",
+				"scale_type" : "FitHeight"
+			}
+		},
+		{
+			"target" : { "path" : "14_12_2018/11_muzyka_dlya_uluchsheniya_vukusa.png" },
+			"video" : {
+				"path" : "https://yadi.sk/i/Mj5hWTskjvXNNg",
+				"scale_type" : "FitHeight"
+			}
+		},
+		{
+			"target" : { "path" : "14_12_2018/12_effekt_gallyucinacii.png" },
+			"video" : {
+				"path" : "https://yadi.sk/i/bq7OTvpm4hbx6g",
+				"scale_type" : "FitHeight"
+			}
+		},
+		{
+			"target" : { "path" : "14_12_2018/13_oporno-dvigatelnyj_apparat.png" },
+			"video" : {
+				"path" : "https://yadi.sk/i/b0_vHmTlrlYzbg",
+				"scale_type" : "FitHeight"
+			}
+		},
+		{
+			"target" : { "path" : "14_12_2018/14_stroenie_sporovyx.png" },
+			"video" : {
+				"path" : "https://yadi.sk/i/Hxs2hyRkm0_x3Q",
+				"scale_type" : "FitHeight"
+			}
+		},
+		{
+			"target" : { "path" : "14_12_2018/15_strukturno-funkcionalnaya_organizaciya_zhivogo.png" },
+			"video" : {
+				"path" : "https://yadi.sk/i/l3bD8O9Ev7ZrZw",
+				"scale_type" : "FitHeight"
+			}
+		}
+	]
+}

@@ -1,0 +1,1716 @@
+fileFormatVersion: 2
+guid: 8e41416f001f1354c8881b6c5e63a39b
+timeCreated: 1523885154
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: AM124_120_large_v3_006
+    100002: Bone
+    100004: Bone_0
+    100006: Bone_001
+    100008: Bone_002
+    100010: Bone_003
+    100012: Bone_004
+    100014: Bone_005
+    100016: Bone_006
+    100018: Bone_007
+    100020: Bone_008
+    100022: Bone_009
+    100024: Bone_010
+    100026: Bone_011
+    100028: Bone_012
+    100030: Bone_013
+    100032: Bone_014
+    100034: Bone_015
+    100036: Bone_016
+    100038: Bone_017
+    100040: Bone_1
+    100042: Bone_10
+    100044: Bone_11
+    100046: Bone_12
+    100048: Bone_13
+    100050: Bone_14
+    100052: Bone_15
+    100054: Bone_16
+    100056: Bone_17
+    100058: Bone_18
+    100060: Bone_19
+    100062: Bone_2
+    100064: Bone_20
+    100066: Bone_21
+    100068: Bone_22
+    100070: Bone_23
+    100072: Bone_24
+    100074: Bone_25
+    100076: Bone_26
+    100078: Bone_27
+    100080: Bone_28
+    100082: Bone_29
+    100084: Bone_3
+    100086: Bone_30
+    100088: Bone_31
+    100090: Bone_32
+    100092: Bone_33
+    100094: Bone_34
+    100096: Bone_35
+    100098: Bone_36
+    100100: Bone_37
+    100102: Bone_38
+    100104: Bone_39
+    100106: Bone_4
+    100108: Bone_40
+    100110: Bone_41
+    100112: Bone_42
+    100114: Bone_43
+    100116: Bone_44
+    100118: Bone_45
+    100120: Bone_46
+    100122: Bone_47
+    100124: Bone_5
+    100126: Bone_6
+    100128: Bone_7
+    100130: Bone_8
+    100132: Bone_9
+    100134: //RootNode
+    100136: "\u0422\u0440\u0430\u0432\u043A\u0430"
+    100138: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1"
+    100140: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1_005"
+    100142: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2"
+    100144: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2_006"
+    100146: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3"
+    100148: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3_003"
+    400000: AM124_120_large_v3_006
+    400002: Bone
+    400004: Bone_0
+    400006: Bone_001
+    400008: Bone_002
+    400010: Bone_003
+    400012: Bone_004
+    400014: Bone_005
+    400016: Bone_006
+    400018: Bone_007
+    400020: Bone_008
+    400022: Bone_009
+    400024: Bone_010
+    400026: Bone_011
+    400028: Bone_012
+    400030: Bone_013
+    400032: Bone_014
+    400034: Bone_015
+    400036: Bone_016
+    400038: Bone_017
+    400040: Bone_1
+    400042: Bone_10
+    400044: Bone_11
+    400046: Bone_12
+    400048: Bone_13
+    400050: Bone_14
+    400052: Bone_15
+    400054: Bone_16
+    400056: Bone_17
+    400058: Bone_18
+    400060: Bone_19
+    400062: Bone_2
+    400064: Bone_20
+    400066: Bone_21
+    400068: Bone_22
+    400070: Bone_23
+    400072: Bone_24
+    400074: Bone_25
+    400076: Bone_26
+    400078: Bone_27
+    400080: Bone_28
+    400082: Bone_29
+    400084: Bone_3
+    400086: Bone_30
+    400088: Bone_31
+    400090: Bone_32
+    400092: Bone_33
+    400094: Bone_34
+    400096: Bone_35
+    400098: Bone_36
+    400100: Bone_37
+    400102: Bone_38
+    400104: Bone_39
+    400106: Bone_4
+    400108: Bone_40
+    400110: Bone_41
+    400112: Bone_42
+    400114: Bone_43
+    400116: Bone_44
+    400118: Bone_45
+    400120: Bone_46
+    400122: Bone_47
+    400124: Bone_5
+    400126: Bone_6
+    400128: Bone_7
+    400130: Bone_8
+    400132: Bone_9
+    400134: //RootNode
+    400136: "\u0422\u0440\u0430\u0432\u043A\u0430"
+    400138: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1"
+    400140: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1_005"
+    400142: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2"
+    400144: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2_006"
+    400146: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3"
+    400148: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3_003"
+    2100000: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1__AM124_120_simple_grass_large_v3_color_jpg"
+    2100002: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2__AM124_120_simple_grass_large_v3_color_jpg"
+    2100004: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3__AM124_120_simple_grass_large_v3_color_jpg"
+    2100006: "\u0422\u0440\u0430\u0432\u043A\u0430__AM124_120_simple_grass_large_v3_color_jpg"
+    4300000: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1_005"
+    4300002: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2_006"
+    4300004: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3_003"
+    4300006: AM124_120_large_v3_006
+    7400000: Default Take
+    7400002: "\u0422\u0440\u0430\u0432\u043A\u0430"
+    7400004: "\u0422\u0440\u0430\u0432\u043A\u0430__\u041A\u043E\u043B\u044B\u0445\u0430\u043D\u0438\u0435"
+    7400006: "\u0446\u0432\u0435\u0442\u043E\u0447\u0435\u043A_1"
+    7400008: "\u0446\u0432\u0435\u0442\u043E\u0447\u0435\u043A_1__\u043A\u043E\u043B\u044B\u0445\u0430\u043D\u0438\u0435"
+    7400010: "\u0446\u0432\u0435\u0442\u043E\u0447\u0435\u043A_2__\u043A\u043E\u043B\u044B\u0445\u0430\u043D\u0438\u0435"
+    7400012: "\u0446\u0432\u0435\u0442\u043E\u0447\u0435\u043A_3"
+    7400014: "\u0446\u0432\u0435\u0442\u043E\u0447\u0435\u043A_3__\u043A\u043E\u043B\u044B\u0445\u0430\u043D\u0438\u0435"
+    7400016: "\u0446\u0432\u0435\u0442\u043E\u0447\u0435\u043A_2"
+    9500000: //RootNode
+    13700000: AM124_120_large_v3_006
+    13700002: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1_005"
+    13700004: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2_006"
+    13700006: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3_003"
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u0422\u0440\u0430\u0432\u043A\u0430__AM124_120_simple_grass_large_v3_color_jpg"
+    second: {fileID: 2100000, guid: adc998f2e0c60444c9256ea8f9289d93, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u0422\u0440\u0430\u0432\u043A\u0430"
+      takeName: "\u0422\u0440\u0430\u0432\u043A\u0430"
+      firstFrame: 0
+      lastFrame: 99
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AM124_120_large_v3_006
+        weight: 1
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430"
+        weight: 1
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_36"
+        weight: 1
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_36/Bone_37"
+        weight: 1
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_38"
+        weight: 1
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_38/Bone_39"
+        weight: 1
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_40"
+        weight: 1
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_40/Bone_41"
+        weight: 1
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_42"
+        weight: 1
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_42/Bone_43"
+        weight: 1
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_44"
+        weight: 1
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_44/Bone_45"
+        weight: 1
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_46"
+        weight: 1
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_46/Bone_47"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_003"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_003/Bone_004"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_003/Bone_004/Bone_005"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_006"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_006/Bone_007"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_006/Bone_007/Bone_008"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_009"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_009/Bone_010"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_009/Bone_010/Bone_011"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_012"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_012/Bone_013"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_012/Bone_013/Bone_014"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_015"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_015/Bone_016"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_015/Bone_016/Bone_017"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1_005"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_4"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_4/Bone_5"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_4/Bone_5/Bone_6"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_7"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_7/Bone_8"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_7/Bone_8/Bone_9"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_10"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_10/Bone_11"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_10/Bone_11/Bone_12"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_13"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_13/Bone_14"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_13/Bone_14/Bone_15"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_16"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_16/Bone_17"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_16/Bone_17/Bone_18"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2_006"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_21"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_21/Bone_22"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_21/Bone_22/Bone_23"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_24"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_24/Bone_25"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_24/Bone_25/Bone_26"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_27"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_27/Bone_28"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_27/Bone_28/Bone_29"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_30"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_30/Bone_31"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_30/Bone_31/Bone_32"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_33"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_33/Bone_34"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_33/Bone_34/Bone_35"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3_003"
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u0422\u0440\u0430\u0432\u043A\u0430__\u041A\u043E\u043B\u044B\u0445\u0430\u043D\u0438\u0435"
+      takeName: "\u0422\u0440\u0430\u0432\u043A\u0430__\u041A\u043E\u043B\u044B\u0445\u0430\u043D\u0438\u0435"
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AM124_120_large_v3_006
+        weight: 1
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430"
+        weight: 1
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_36"
+        weight: 1
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_36/Bone_37"
+        weight: 1
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_38"
+        weight: 1
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_38/Bone_39"
+        weight: 1
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_40"
+        weight: 1
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_40/Bone_41"
+        weight: 1
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_42"
+        weight: 1
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_42/Bone_43"
+        weight: 1
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_44"
+        weight: 1
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_44/Bone_45"
+        weight: 1
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_46"
+        weight: 1
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_46/Bone_47"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_003"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_003/Bone_004"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_003/Bone_004/Bone_005"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_006"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_006/Bone_007"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_006/Bone_007/Bone_008"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_009"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_009/Bone_010"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_009/Bone_010/Bone_011"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_012"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_012/Bone_013"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_012/Bone_013/Bone_014"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_015"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_015/Bone_016"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_015/Bone_016/Bone_017"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1_005"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_4"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_4/Bone_5"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_4/Bone_5/Bone_6"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_7"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_7/Bone_8"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_7/Bone_8/Bone_9"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_10"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_10/Bone_11"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_10/Bone_11/Bone_12"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_13"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_13/Bone_14"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_13/Bone_14/Bone_15"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_16"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_16/Bone_17"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_16/Bone_17/Bone_18"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2_006"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_21"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_21/Bone_22"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_21/Bone_22/Bone_23"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_24"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_24/Bone_25"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_24/Bone_25/Bone_26"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_27"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_27/Bone_28"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_27/Bone_28/Bone_29"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_30"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_30/Bone_31"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_30/Bone_31/Bone_32"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_33"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_33/Bone_34"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_33/Bone_34/Bone_35"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3_003"
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u0446\u0432\u0435\u0442\u043E\u0447\u0435\u043A_1"
+      takeName: "\u0446\u0432\u0435\u0442\u043E\u0447\u0435\u043A_1"
+      firstFrame: 0
+      lastFrame: 99
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AM124_120_large_v3_006
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_36"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_36/Bone_37"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_38"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_38/Bone_39"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_40"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_40/Bone_41"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_42"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_42/Bone_43"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_44"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_44/Bone_45"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_46"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_46/Bone_47"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_003"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_003/Bone_004"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_003/Bone_004/Bone_005"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_006"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_006/Bone_007"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_006/Bone_007/Bone_008"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_009"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_009/Bone_010"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_009/Bone_010/Bone_011"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_012"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_012/Bone_013"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_012/Bone_013/Bone_014"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_015"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_015/Bone_016"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_015/Bone_016/Bone_017"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1_005"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_4"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_4/Bone_5"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_4/Bone_5/Bone_6"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_7"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_7/Bone_8"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_7/Bone_8/Bone_9"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_10"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_10/Bone_11"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_10/Bone_11/Bone_12"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_13"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_13/Bone_14"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_13/Bone_14/Bone_15"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_16"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_16/Bone_17"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_16/Bone_17/Bone_18"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2_006"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_21"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_21/Bone_22"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_21/Bone_22/Bone_23"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_24"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_24/Bone_25"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_24/Bone_25/Bone_26"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_27"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_27/Bone_28"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_27/Bone_28/Bone_29"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_30"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_30/Bone_31"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_30/Bone_31/Bone_32"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_33"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_33/Bone_34"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_33/Bone_34/Bone_35"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3_003"
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u0446\u0432\u0435\u0442\u043E\u0447\u0435\u043A_1__\u043A\u043E\u043B\u044B\u0445\u0430\u043D\u0438\u0435"
+      takeName: "\u0446\u0432\u0435\u0442\u043E\u0447\u0435\u043A_1__\u043A\u043E\u043B\u044B\u0445\u0430\u043D\u0438\u0435"
+      firstFrame: 0
+      lastFrame: 118
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AM124_120_large_v3_006
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_36"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_36/Bone_37"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_38"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_38/Bone_39"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_40"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_40/Bone_41"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_42"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_42/Bone_43"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_44"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_44/Bone_45"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_46"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_46/Bone_47"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_003"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_003/Bone_004"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_003/Bone_004/Bone_005"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_006"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_006/Bone_007"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_006/Bone_007/Bone_008"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_009"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_009/Bone_010"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_009/Bone_010/Bone_011"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_012"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_012/Bone_013"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_012/Bone_013/Bone_014"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_015"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_015/Bone_016"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_015/Bone_016/Bone_017"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1_005"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_4"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_4/Bone_5"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_4/Bone_5/Bone_6"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_7"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_7/Bone_8"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_7/Bone_8/Bone_9"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_10"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_10/Bone_11"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_10/Bone_11/Bone_12"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_13"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_13/Bone_14"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_13/Bone_14/Bone_15"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_16"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_16/Bone_17"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_16/Bone_17/Bone_18"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2_006"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_21"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_21/Bone_22"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_21/Bone_22/Bone_23"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_24"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_24/Bone_25"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_24/Bone_25/Bone_26"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_27"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_27/Bone_28"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_27/Bone_28/Bone_29"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_30"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_30/Bone_31"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_30/Bone_31/Bone_32"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_33"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_33/Bone_34"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_33/Bone_34/Bone_35"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3_003"
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u0446\u0432\u0435\u0442\u043E\u0447\u0435\u043A_2__\u043A\u043E\u043B\u044B\u0445\u0430\u043D\u0438\u0435"
+      takeName: "\u0446\u0432\u0435\u0442\u043E\u0447\u0435\u043A_2__\u043A\u043E\u043B\u044B\u0445\u0430\u043D\u0438\u0435"
+      firstFrame: 0
+      lastFrame: 118
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AM124_120_large_v3_006
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_36"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_36/Bone_37"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_38"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_38/Bone_39"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_40"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_40/Bone_41"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_42"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_42/Bone_43"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_44"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_44/Bone_45"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_46"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_46/Bone_47"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_003"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_003/Bone_004"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_003/Bone_004/Bone_005"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_006"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_006/Bone_007"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_006/Bone_007/Bone_008"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_009"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_009/Bone_010"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_009/Bone_010/Bone_011"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_012"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_012/Bone_013"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_012/Bone_013/Bone_014"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_015"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_015/Bone_016"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_015/Bone_016/Bone_017"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1_005"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_4"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_4/Bone_5"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_4/Bone_5/Bone_6"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_7"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_7/Bone_8"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_7/Bone_8/Bone_9"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_10"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_10/Bone_11"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_10/Bone_11/Bone_12"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_13"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_13/Bone_14"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_13/Bone_14/Bone_15"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_16"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_16/Bone_17"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_16/Bone_17/Bone_18"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2_006"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_21"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_21/Bone_22"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_21/Bone_22/Bone_23"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_24"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_24/Bone_25"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_24/Bone_25/Bone_26"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_27"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_27/Bone_28"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_27/Bone_28/Bone_29"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_30"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_30/Bone_31"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_30/Bone_31/Bone_32"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_33"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_33/Bone_34"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_33/Bone_34/Bone_35"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3_003"
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u0446\u0432\u0435\u0442\u043E\u0447\u0435\u043A_3"
+      takeName: "\u0446\u0432\u0435\u0442\u043E\u0447\u0435\u043A_3"
+      firstFrame: 0
+      lastFrame: 99
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AM124_120_large_v3_006
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_36"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_36/Bone_37"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_38"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_38/Bone_39"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_40"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_40/Bone_41"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_42"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_42/Bone_43"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_44"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_44/Bone_45"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_46"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_46/Bone_47"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_003"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_003/Bone_004"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_003/Bone_004/Bone_005"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_006"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_006/Bone_007"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_006/Bone_007/Bone_008"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_009"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_009/Bone_010"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_009/Bone_010/Bone_011"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_012"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_012/Bone_013"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_012/Bone_013/Bone_014"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_015"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_015/Bone_016"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_015/Bone_016/Bone_017"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1_005"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_4"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_4/Bone_5"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_4/Bone_5/Bone_6"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_7"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_7/Bone_8"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_7/Bone_8/Bone_9"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_10"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_10/Bone_11"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_10/Bone_11/Bone_12"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_13"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_13/Bone_14"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_13/Bone_14/Bone_15"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_16"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_16/Bone_17"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_16/Bone_17/Bone_18"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2_006"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_21"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_21/Bone_22"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_21/Bone_22/Bone_23"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_24"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_24/Bone_25"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_24/Bone_25/Bone_26"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_27"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_27/Bone_28"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_27/Bone_28/Bone_29"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_30"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_30/Bone_31"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_30/Bone_31/Bone_32"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_33"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_33/Bone_34"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_33/Bone_34/Bone_35"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3_003"
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u0446\u0432\u0435\u0442\u043E\u0447\u0435\u043A_3__\u043A\u043E\u043B\u044B\u0445\u0430\u043D\u0438\u0435"
+      takeName: "\u0446\u0432\u0435\u0442\u043E\u0447\u0435\u043A_3__\u043A\u043E\u043B\u044B\u0445\u0430\u043D\u0438\u0435"
+      firstFrame: 0
+      lastFrame: 118
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AM124_120_large_v3_006
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_36"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_36/Bone_37"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_38"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_38/Bone_39"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_40"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_40/Bone_41"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_42"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_42/Bone_43"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_44"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_44/Bone_45"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_46"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_46/Bone_47"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_003"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_003/Bone_004"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_003/Bone_004/Bone_005"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_006"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_006/Bone_007"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_006/Bone_007/Bone_008"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_009"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_009/Bone_010"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_009/Bone_010/Bone_011"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_012"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_012/Bone_013"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_012/Bone_013/Bone_014"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_015"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_015/Bone_016"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_015/Bone_016/Bone_017"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1_005"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_4"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_4/Bone_5"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_4/Bone_5/Bone_6"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_7"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_7/Bone_8"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_7/Bone_8/Bone_9"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_10"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_10/Bone_11"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_10/Bone_11/Bone_12"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_13"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_13/Bone_14"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_13/Bone_14/Bone_15"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_16"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_16/Bone_17"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_16/Bone_17/Bone_18"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2_006"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_21"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_21/Bone_22"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_21/Bone_22/Bone_23"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_24"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_24/Bone_25"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_24/Bone_25/Bone_26"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_27"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_27/Bone_28"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_27/Bone_28/Bone_29"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_30"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_30/Bone_31"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_30/Bone_31/Bone_32"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_33"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_33/Bone_34"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_33/Bone_34/Bone_35"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3_003"
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u0446\u0432\u0435\u0442\u043E\u0447\u0435\u043A_2"
+      takeName: "\u0446\u0432\u0442\u043E\u0447\u0435\u043A_2"
+      firstFrame: 0
+      lastFrame: 99
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: AM124_120_large_v3_006
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_36"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_36/Bone_37"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_38"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_38/Bone_39"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_40"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_40/Bone_41"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_42"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_42/Bone_43"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_44"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_44/Bone_45"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_46"
+        weight: 0
+      - path: "\u0422\u0440\u0430\u0432\u043A\u0430/Bone_46/Bone_47"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_003"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_003/Bone_004"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_003/Bone_004/Bone_005"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_006"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_006/Bone_007"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_006/Bone_007/Bone_008"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_009"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_009/Bone_010"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_009/Bone_010/Bone_011"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_012"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_012/Bone_013"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_012/Bone_013/Bone_014"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_015"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_015/Bone_016"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1/Bone/Bone_001/Bone_002/Bone_015/Bone_016/Bone_017"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_1_005"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_4"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_4/Bone_5"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_4/Bone_5/Bone_6"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_7"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_7/Bone_8"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_7/Bone_8/Bone_9"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_10"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_10/Bone_11"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_10/Bone_11/Bone_12"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_13"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_13/Bone_14"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_13/Bone_14/Bone_15"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_16"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_16/Bone_17"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2/Bone_0/Bone_2/Bone_3/Bone_16/Bone_17/Bone_18"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_2_006"
+        weight: 1
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_21"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_21/Bone_22"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_21/Bone_22/Bone_23"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_24"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_24/Bone_25"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_24/Bone_25/Bone_26"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_27"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_27/Bone_28"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_27/Bone_28/Bone_29"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_30"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_30/Bone_31"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_30/Bone_31/Bone_32"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_33"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_33/Bone_34"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3/Bone_1/Bone_19/Bone_20/Bone_33/Bone_34/Bone_35"
+        weight: 0
+      - path: "\u0426\u0432\u0435\u0442\u0443\u0451\u0447\u0435\u043A_3_003"
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

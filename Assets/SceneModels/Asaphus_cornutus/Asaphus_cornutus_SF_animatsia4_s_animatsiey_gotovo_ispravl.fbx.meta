@@ -1,0 +1,1624 @@
+fileFormatVersion: 2
+guid: 5a051dccea02e1948a70e3e23fabe889
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: -legF
+    100002: -legF.001
+    100004: -legF.002
+    100006: -legF.003
+    100008: -legFr
+    100010: -legFr.001
+    100012: -legFr.002
+    100014: -legFr.003
+    100016: Armature
+    100018: Armature.000
+    100020: Armature.001
+    100022: Armature.002
+    100024: Armature.003
+    100026: Armature.004
+    100028: Armature.005
+    100030: Armature.006
+    100032: Armature.007
+    100034: Armature.008
+    100036: Armature.009
+    100038: Armature.010
+    100040: Armature.011
+    100042: Armature.012
+    100044: Armature.013
+    100046: Armature.014
+    100048: Armature.015
+    100050: Armature.016
+    100052: Armature.017
+    100054: Armature.018
+    100056: Armature.019
+    100058: Armature.020
+    100060: Armature.021
+    100062: Armature.022
+    100064: Armature.023
+    100066: Armature.024
+    100068: Armature.025
+    100070: Armature.026
+    100072: Armature.027
+    100074: //RootNode
+    100076: base
+    100078: base.001
+    100080: Bone
+    100082: Bone 1
+    100084: Bone 10
+    100086: Bone 11
+    100088: Bone 12
+    100090: Bone 13
+    100092: Bone 14
+    100094: Bone 15
+    100096: Bone 16
+    100098: Bone 17
+    100100: Bone 18
+    100102: Bone 19
+    100104: Bone 2
+    100106: Bone 20
+    100108: Bone 21
+    100110: Bone 22
+    100112: Bone 23
+    100114: Bone 24
+    100116: Bone 25
+    100118: Bone 26
+    100120: Bone 27
+    100122: Bone 3
+    100124: Bone 4
+    100126: Bone 5
+    100128: Bone 6
+    100130: Bone 7
+    100132: Bone 8
+    100134: Bone 9
+    100136: Bone.001
+    100138: Bone.001 1
+    100140: Bone.001 10
+    100142: Bone.001 11
+    100144: Bone.001 12
+    100146: Bone.001 13
+    100148: Bone.001 14
+    100150: Bone.001 15
+    100152: Bone.001 16
+    100154: Bone.001 17
+    100156: Bone.001 18
+    100158: Bone.001 19
+    100160: Bone.001 2
+    100162: Bone.001 20
+    100164: Bone.001 21
+    100166: Bone.001 22
+    100168: Bone.001 23
+    100170: Bone.001 24
+    100172: Bone.001 25
+    100174: Bone.001 26
+    100176: Bone.001 27
+    100178: Bone.001 3
+    100180: Bone.001 4
+    100182: Bone.001 5
+    100184: Bone.001 6
+    100186: Bone.001 7
+    100188: Bone.001 8
+    100190: Bone.001 9
+    100192: Bone.002
+    100194: Bone.002 1
+    100196: Bone.002 10
+    100198: Bone.002 11
+    100200: Bone.002 12
+    100202: Bone.002 13
+    100204: Bone.002 14
+    100206: Bone.002 15
+    100208: Bone.002 16
+    100210: Bone.002 17
+    100212: Bone.002 18
+    100214: Bone.002 19
+    100216: Bone.002 2
+    100218: Bone.002 20
+    100220: Bone.002 21
+    100222: Bone.002 22
+    100224: Bone.002 23
+    100226: Bone.002 24
+    100228: Bone.002 25
+    100230: Bone.002 26
+    100232: Bone.002 27
+    100234: Bone.002 28
+    100236: Bone.002 3
+    100238: Bone.002 4
+    100240: Bone.002 5
+    100242: Bone.002 6
+    100244: Bone.002 7
+    100246: Bone.002 8
+    100248: Bone.002 9
+    100250: Bone.003
+    100252: Bone.003 1
+    100254: Bone.003 10
+    100256: Bone.003 11
+    100258: Bone.003 12
+    100260: Bone.003 13
+    100262: Bone.003 14
+    100264: Bone.003 15
+    100266: Bone.003 16
+    100268: Bone.003 17
+    100270: Bone.003 18
+    100272: Bone.003 19
+    100274: Bone.003 2
+    100276: Bone.003 20
+    100278: Bone.003 21
+    100280: Bone.003 22
+    100282: Bone.003 23
+    100284: Bone.003 24
+    100286: Bone.003 25
+    100288: Bone.003 26
+    100290: Bone.003 27
+    100292: Bone.003 28
+    100294: Bone.003 3
+    100296: Bone.003 4
+    100298: Bone.003 5
+    100300: Bone.003 6
+    100302: Bone.003 7
+    100304: Bone.003 8
+    100306: Bone.003 9
+    100308: Bone.004
+    100310: Bone.004 1
+    100312: Bone.004 10
+    100314: Bone.004 11
+    100316: Bone.004 12
+    100318: Bone.004 13
+    100320: Bone.004 14
+    100322: Bone.004 15
+    100324: Bone.004 16
+    100326: Bone.004 17
+    100328: Bone.004 18
+    100330: Bone.004 19
+    100332: Bone.004 2
+    100334: Bone.004 20
+    100336: Bone.004 21
+    100338: Bone.004 22
+    100340: Bone.004 23
+    100342: Bone.004 24
+    100344: Bone.004 25
+    100346: Bone.004 26
+    100348: Bone.004 27
+    100350: Bone.004 28
+    100352: Bone.004 3
+    100354: Bone.004 4
+    100356: Bone.004 5
+    100358: Bone.004 6
+    100360: Bone.004 7
+    100362: Bone.004 8
+    100364: Bone.004 9
+    100366: Bone.005
+    100368: Bone.005 1
+    100370: Bone.005 10
+    100372: Bone.005 11
+    100374: Bone.005 12
+    100376: Bone.005 13
+    100378: Bone.005 14
+    100380: Bone.005 15
+    100382: Bone.005 16
+    100384: Bone.005 17
+    100386: Bone.005 18
+    100388: Bone.005 19
+    100390: Bone.005 2
+    100392: Bone.005 20
+    100394: Bone.005 21
+    100396: Bone.005 22
+    100398: Bone.005 23
+    100400: Bone.005 24
+    100402: Bone.005 25
+    100404: Bone.005 26
+    100406: Bone.005 27
+    100408: Bone.005 28
+    100410: Bone.005 3
+    100412: Bone.005 4
+    100414: Bone.005 5
+    100416: Bone.005 6
+    100418: Bone.005 7
+    100420: Bone.005 8
+    100422: Bone.005 9
+    100424: Bone.005_end
+    100426: Bone.005_end 1
+    100428: Bone.005_end 10
+    100430: Bone.005_end 11
+    100432: Bone.005_end 12
+    100434: Bone.005_end 13
+    100436: Bone.005_end 14
+    100438: Bone.005_end 15
+    100440: Bone.005_end 16
+    100442: Bone.005_end 17
+    100444: Bone.005_end 18
+    100446: Bone.005_end 19
+    100448: Bone.005_end 2
+    100450: Bone.005_end 20
+    100452: Bone.005_end 21
+    100454: Bone.005_end 22
+    100456: Bone.005_end 23
+    100458: Bone.005_end 24
+    100460: Bone.005_end 25
+    100462: Bone.005_end 3
+    100464: Bone.005_end 4
+    100466: Bone.005_end 5
+    100468: Bone.005_end 6
+    100470: Bone.005_end 7
+    100472: Bone.005_end 8
+    100474: Bone.005_end 9
+    100476: Bone.006
+    100478: Bone.006 1
+    100480: Bone.006 2
+    100482: Bone.007
+    100484: Bone.007 1
+    100486: Bone.007 2
+    100488: Bone.008
+    100490: Bone.008 1
+    100492: Bone.008 2
+    100494: Bone.009
+    100496: Bone.009 1
+    100498: Bone.009 2
+    100500: Bone.010
+    100502: Bone.010 1
+    100504: Bone.010 2
+    100506: Bone.010_end
+    100508: Bone.011
+    100510: Bone.011 1
+    100512: Bone.011 2
+    100514: Bone.011_end
+    100516: Bone.012
+    100518: Bone.012 1
+    100520: Bone.013
+    100522: Bone.013 1
+    100524: Bone.013_end
+    100526: Bone.013_end 1
+    100528: Cephalon
+    100530: EYE01.000
+    100532: EYE01.003
+    100534: Gill-base.000
+    100536: Gill-base.001
+    100538: Gill-base.002
+    100540: Gill-base.003
+    100542: Gill-Fbase
+    100544: Gill-Fbase.001
+    100546: Gill-Fbase.002
+    100548: Gill-Fbase.003
+    100550: Gill-Rbase
+    100552: Gill-Rbase.001
+    100554: Gill-Rbase.002
+    100556: Gill-Rbase.003
+    100558: Gill-Rbase.004
+    100560: Gill-Rbase.005
+    100562: Gill-Rbase.006
+    100564: Gill-Rbase.007
+    100566: Gill-Rbase.008
+    100568: Gill-Rbase.009
+    100570: Gill-Rbase.010
+    100572: Gill-Rbase.011
+    100574: Gill-Rbase.012
+    100576: Gill-Rbase.013
+    100578: Gill-Rbase.014
+    100580: Gill-Rbase.015
+    100582: Gill-TLbase
+    100584: Gill-TRbase
+    100586: hypostome
+    100588: IK-FL0.000
+    100590: IK-FL0.001
+    100592: IK-FL0.002
+    100594: IK-FL0.003
+    100596: IK-FL0.004
+    100598: IK-FL0.005
+    100600: IK-FL0.006
+    100602: IK-FL0.007
+    100604: IK_R
+    100606: IK_R.001
+    100608: IK_R.002
+    100610: IK_R.003
+    100612: IK_R.004
+    100614: IK_R.005
+    100616: IK_R.006
+    100618: IK_R.007
+    100620: IK_R.008
+    100622: IK_R.009
+    100624: IK_R.010
+    100626: IK_R.011
+    100628: IK_R.012
+    100630: IK_R.013
+    100632: IK_R.014
+    100634: IK_R.015
+    100636: IK_R.016
+    100638: IK_TL
+    100640: IK_TL.001
+    100642: ikA
+    100644: ikA.001
+    100646: leg_F1.000
+    100648: leg_F1.001
+    100650: leg_F1.002
+    100652: leg_F1.003
+    100654: leg_F2.000
+    100656: leg_F2.001
+    100658: leg_F2.002
+    100660: leg_F2.003
+    100662: leg_F3.000
+    100664: leg_F3.001
+    100666: leg_F3.002
+    100668: leg_F3.003
+    100670: leg_F4.000
+    100672: leg_F4.001
+    100674: leg_F4.002
+    100676: leg_F4.003
+    100678: leg_F5.000
+    100680: leg_F5.001
+    100682: leg_F5.002
+    100684: leg_F5.003
+    100686: leg_Fbase.000
+    100688: leg_Fbase.001
+    100690: leg_Fbase.002
+    100692: leg_Fbase.003
+    100694: leg_FR0
+    100696: leg_FR0.001
+    100698: leg_FR0.002
+    100700: leg_FR0.003
+    100702: leg_FR1
+    100704: leg_FR1.001
+    100706: leg_FR1.002
+    100708: leg_FR1.003
+    100710: leg_FR2
+    100712: leg_FR2.001
+    100714: leg_FR2.002
+    100716: leg_FR2.003
+    100718: leg_FR3
+    100720: leg_FR3.001
+    100722: leg_FR3.002
+    100724: leg_FR3.003
+    100726: leg_FR4
+    100728: leg_FR4.001
+    100730: leg_FR4.002
+    100732: leg_FR4.003
+    100734: leg_FRbase
+    100736: leg_FRbase.001
+    100738: leg_FRbase.002
+    100740: leg_FRbase.003
+    100742: Leg_R
+    100744: Leg_R.001
+    100746: Leg_R.002
+    100748: Leg_R.003
+    100750: Leg_R.004
+    100752: Leg_R.005
+    100754: Leg_R.006
+    100756: Leg_R.007
+    100758: Leg_R.008
+    100760: Leg_R.009
+    100762: Leg_R.010
+    100764: Leg_R.011
+    100766: Leg_R.012
+    100768: Leg_R.013
+    100770: Leg_R.014
+    100772: Leg_R.015
+    100774: leg_R0
+    100776: leg_R0.001
+    100778: leg_R0.002
+    100780: leg_R0.003
+    100782: leg_R0.004
+    100784: leg_R0.005
+    100786: leg_R0.006
+    100788: leg_R0.007
+    100790: leg_R0.008
+    100792: leg_R0.009
+    100794: leg_R0.010
+    100796: leg_R0.011
+    100798: leg_R0.012
+    100800: leg_R0.013
+    100802: leg_R0.014
+    100804: leg_R0.015
+    100806: leg_R1
+    100808: leg_R1.001
+    100810: leg_R1.002
+    100812: leg_R1.003
+    100814: leg_R1.004
+    100816: leg_R1.005
+    100818: leg_R1.006
+    100820: leg_R1.007
+    100822: leg_R1.008
+    100824: leg_R1.009
+    100826: leg_R1.010
+    100828: leg_R1.011
+    100830: leg_R1.012
+    100832: leg_R1.013
+    100834: leg_R1.014
+    100836: leg_R1.015
+    100838: leg_R2
+    100840: leg_R2.001
+    100842: leg_R2.002
+    100844: leg_R2.003
+    100846: leg_R2.004
+    100848: leg_R2.005
+    100850: leg_R2.006
+    100852: leg_R2.007
+    100854: leg_R2.008
+    100856: leg_R2.009
+    100858: leg_R2.010
+    100860: leg_R2.011
+    100862: leg_R2.012
+    100864: leg_R2.013
+    100866: leg_R2.014
+    100868: leg_R2.015
+    100870: leg_R3
+    100872: leg_R3.001
+    100874: leg_R3.002
+    100876: leg_R3.003
+    100878: leg_R3.004
+    100880: leg_R3.005
+    100882: leg_R3.006
+    100884: leg_R3.007
+    100886: leg_R3.008
+    100888: leg_R3.009
+    100890: leg_R3.010
+    100892: leg_R3.011
+    100894: leg_R3.012
+    100896: leg_R3.013
+    100898: leg_R3.014
+    100900: leg_R3.015
+    100902: leg_R4
+    100904: leg_R4.001
+    100906: leg_R4.002
+    100908: leg_R4.003
+    100910: leg_R4.004
+    100912: leg_R4.005
+    100914: leg_R4.006
+    100916: leg_R4.007
+    100918: leg_R4.008
+    100920: leg_R4.009
+    100922: leg_R4.010
+    100924: leg_R4.011
+    100926: leg_R4.012
+    100928: leg_R4.013
+    100930: leg_R4.014
+    100932: leg_R4.015
+    100934: leg_Rbase
+    100936: leg_Rbase.001
+    100938: leg_Rbase.002
+    100940: leg_Rbase.003
+    100942: leg_Rbase.004
+    100944: leg_Rbase.005
+    100946: leg_Rbase.006
+    100948: leg_Rbase.007
+    100950: leg_Rbase.008
+    100952: leg_Rbase.009
+    100954: leg_Rbase.010
+    100956: leg_Rbase.011
+    100958: leg_Rbase.012
+    100960: leg_Rbase.013
+    100962: leg_Rbase.014
+    100964: leg_Rbase.015
+    100966: Leg_TL
+    100968: leg_TL0
+    100970: leg_TL1
+    100972: leg_TL2
+    100974: leg_TL3
+    100976: leg_TL4
+    100978: leg_TLbase
+    100980: Leg_TR
+    100982: leg_TR0
+    100984: leg_TR1
+    100986: leg_TR2
+    100988: leg_TR3
+    100990: leg_TR4
+    100992: leg_TRbase
+    100994: node_p
+    100996: node_p.001
+    100998: node_p.002
+    101000: node_p.003
+    101002: node_p.004
+    101004: node_p.005
+    101006: node_p.006
+    101008: node_p.007
+    101010: pygidium
+    101012: Roundcube
+    101014: Roundcube.001
+    400000: -legF
+    400002: -legF.001
+    400004: -legF.002
+    400006: -legF.003
+    400008: -legFr
+    400010: -legFr.001
+    400012: -legFr.002
+    400014: -legFr.003
+    400016: Armature
+    400018: Armature.000
+    400020: Armature.001
+    400022: Armature.002
+    400024: Armature.003
+    400026: Armature.004
+    400028: Armature.005
+    400030: Armature.006
+    400032: Armature.007
+    400034: Armature.008
+    400036: Armature.009
+    400038: Armature.010
+    400040: Armature.011
+    400042: Armature.012
+    400044: Armature.013
+    400046: Armature.014
+    400048: Armature.015
+    400050: Armature.016
+    400052: Armature.017
+    400054: Armature.018
+    400056: Armature.019
+    400058: Armature.020
+    400060: Armature.021
+    400062: Armature.022
+    400064: Armature.023
+    400066: Armature.024
+    400068: Armature.025
+    400070: Armature.026
+    400072: Armature.027
+    400074: //RootNode
+    400076: base
+    400078: base.001
+    400080: Bone
+    400082: Bone 1
+    400084: Bone 10
+    400086: Bone 11
+    400088: Bone 12
+    400090: Bone 13
+    400092: Bone 14
+    400094: Bone 15
+    400096: Bone 16
+    400098: Bone 17
+    400100: Bone 18
+    400102: Bone 19
+    400104: Bone 2
+    400106: Bone 20
+    400108: Bone 21
+    400110: Bone 22
+    400112: Bone 23
+    400114: Bone 24
+    400116: Bone 25
+    400118: Bone 26
+    400120: Bone 27
+    400122: Bone 3
+    400124: Bone 4
+    400126: Bone 5
+    400128: Bone 6
+    400130: Bone 7
+    400132: Bone 8
+    400134: Bone 9
+    400136: Bone.001
+    400138: Bone.001 1
+    400140: Bone.001 10
+    400142: Bone.001 11
+    400144: Bone.001 12
+    400146: Bone.001 13
+    400148: Bone.001 14
+    400150: Bone.001 15
+    400152: Bone.001 16
+    400154: Bone.001 17
+    400156: Bone.001 18
+    400158: Bone.001 19
+    400160: Bone.001 2
+    400162: Bone.001 20
+    400164: Bone.001 21
+    400166: Bone.001 22
+    400168: Bone.001 23
+    400170: Bone.001 24
+    400172: Bone.001 25
+    400174: Bone.001 26
+    400176: Bone.001 27
+    400178: Bone.001 3
+    400180: Bone.001 4
+    400182: Bone.001 5
+    400184: Bone.001 6
+    400186: Bone.001 7
+    400188: Bone.001 8
+    400190: Bone.001 9
+    400192: Bone.002
+    400194: Bone.002 1
+    400196: Bone.002 10
+    400198: Bone.002 11
+    400200: Bone.002 12
+    400202: Bone.002 13
+    400204: Bone.002 14
+    400206: Bone.002 15
+    400208: Bone.002 16
+    400210: Bone.002 17
+    400212: Bone.002 18
+    400214: Bone.002 19
+    400216: Bone.002 2
+    400218: Bone.002 20
+    400220: Bone.002 21
+    400222: Bone.002 22
+    400224: Bone.002 23
+    400226: Bone.002 24
+    400228: Bone.002 25
+    400230: Bone.002 26
+    400232: Bone.002 27
+    400234: Bone.002 28
+    400236: Bone.002 3
+    400238: Bone.002 4
+    400240: Bone.002 5
+    400242: Bone.002 6
+    400244: Bone.002 7
+    400246: Bone.002 8
+    400248: Bone.002 9
+    400250: Bone.003
+    400252: Bone.003 1
+    400254: Bone.003 10
+    400256: Bone.003 11
+    400258: Bone.003 12
+    400260: Bone.003 13
+    400262: Bone.003 14
+    400264: Bone.003 15
+    400266: Bone.003 16
+    400268: Bone.003 17
+    400270: Bone.003 18
+    400272: Bone.003 19
+    400274: Bone.003 2
+    400276: Bone.003 20
+    400278: Bone.003 21
+    400280: Bone.003 22
+    400282: Bone.003 23
+    400284: Bone.003 24
+    400286: Bone.003 25
+    400288: Bone.003 26
+    400290: Bone.003 27
+    400292: Bone.003 28
+    400294: Bone.003 3
+    400296: Bone.003 4
+    400298: Bone.003 5
+    400300: Bone.003 6
+    400302: Bone.003 7
+    400304: Bone.003 8
+    400306: Bone.003 9
+    400308: Bone.004
+    400310: Bone.004 1
+    400312: Bone.004 10
+    400314: Bone.004 11
+    400316: Bone.004 12
+    400318: Bone.004 13
+    400320: Bone.004 14
+    400322: Bone.004 15
+    400324: Bone.004 16
+    400326: Bone.004 17
+    400328: Bone.004 18
+    400330: Bone.004 19
+    400332: Bone.004 2
+    400334: Bone.004 20
+    400336: Bone.004 21
+    400338: Bone.004 22
+    400340: Bone.004 23
+    400342: Bone.004 24
+    400344: Bone.004 25
+    400346: Bone.004 26
+    400348: Bone.004 27
+    400350: Bone.004 28
+    400352: Bone.004 3
+    400354: Bone.004 4
+    400356: Bone.004 5
+    400358: Bone.004 6
+    400360: Bone.004 7
+    400362: Bone.004 8
+    400364: Bone.004 9
+    400366: Bone.005
+    400368: Bone.005 1
+    400370: Bone.005 10
+    400372: Bone.005 11
+    400374: Bone.005 12
+    400376: Bone.005 13
+    400378: Bone.005 14
+    400380: Bone.005 15
+    400382: Bone.005 16
+    400384: Bone.005 17
+    400386: Bone.005 18
+    400388: Bone.005 19
+    400390: Bone.005 2
+    400392: Bone.005 20
+    400394: Bone.005 21
+    400396: Bone.005 22
+    400398: Bone.005 23
+    400400: Bone.005 24
+    400402: Bone.005 25
+    400404: Bone.005 26
+    400406: Bone.005 27
+    400408: Bone.005 28
+    400410: Bone.005 3
+    400412: Bone.005 4
+    400414: Bone.005 5
+    400416: Bone.005 6
+    400418: Bone.005 7
+    400420: Bone.005 8
+    400422: Bone.005 9
+    400424: Bone.005_end
+    400426: Bone.005_end 1
+    400428: Bone.005_end 10
+    400430: Bone.005_end 11
+    400432: Bone.005_end 12
+    400434: Bone.005_end 13
+    400436: Bone.005_end 14
+    400438: Bone.005_end 15
+    400440: Bone.005_end 16
+    400442: Bone.005_end 17
+    400444: Bone.005_end 18
+    400446: Bone.005_end 19
+    400448: Bone.005_end 2
+    400450: Bone.005_end 20
+    400452: Bone.005_end 21
+    400454: Bone.005_end 22
+    400456: Bone.005_end 23
+    400458: Bone.005_end 24
+    400460: Bone.005_end 25
+    400462: Bone.005_end 3
+    400464: Bone.005_end 4
+    400466: Bone.005_end 5
+    400468: Bone.005_end 6
+    400470: Bone.005_end 7
+    400472: Bone.005_end 8
+    400474: Bone.005_end 9
+    400476: Bone.006
+    400478: Bone.006 1
+    400480: Bone.006 2
+    400482: Bone.007
+    400484: Bone.007 1
+    400486: Bone.007 2
+    400488: Bone.008
+    400490: Bone.008 1
+    400492: Bone.008 2
+    400494: Bone.009
+    400496: Bone.009 1
+    400498: Bone.009 2
+    400500: Bone.010
+    400502: Bone.010 1
+    400504: Bone.010 2
+    400506: Bone.010_end
+    400508: Bone.011
+    400510: Bone.011 1
+    400512: Bone.011 2
+    400514: Bone.011_end
+    400516: Bone.012
+    400518: Bone.012 1
+    400520: Bone.013
+    400522: Bone.013 1
+    400524: Bone.013_end
+    400526: Bone.013_end 1
+    400528: Cephalon
+    400530: EYE01.000
+    400532: EYE01.003
+    400534: Gill-base.000
+    400536: Gill-base.001
+    400538: Gill-base.002
+    400540: Gill-base.003
+    400542: Gill-Fbase
+    400544: Gill-Fbase.001
+    400546: Gill-Fbase.002
+    400548: Gill-Fbase.003
+    400550: Gill-Rbase
+    400552: Gill-Rbase.001
+    400554: Gill-Rbase.002
+    400556: Gill-Rbase.003
+    400558: Gill-Rbase.004
+    400560: Gill-Rbase.005
+    400562: Gill-Rbase.006
+    400564: Gill-Rbase.007
+    400566: Gill-Rbase.008
+    400568: Gill-Rbase.009
+    400570: Gill-Rbase.010
+    400572: Gill-Rbase.011
+    400574: Gill-Rbase.012
+    400576: Gill-Rbase.013
+    400578: Gill-Rbase.014
+    400580: Gill-Rbase.015
+    400582: Gill-TLbase
+    400584: Gill-TRbase
+    400586: hypostome
+    400588: IK-FL0.000
+    400590: IK-FL0.001
+    400592: IK-FL0.002
+    400594: IK-FL0.003
+    400596: IK-FL0.004
+    400598: IK-FL0.005
+    400600: IK-FL0.006
+    400602: IK-FL0.007
+    400604: IK_R
+    400606: IK_R.001
+    400608: IK_R.002
+    400610: IK_R.003
+    400612: IK_R.004
+    400614: IK_R.005
+    400616: IK_R.006
+    400618: IK_R.007
+    400620: IK_R.008
+    400622: IK_R.009
+    400624: IK_R.010
+    400626: IK_R.011
+    400628: IK_R.012
+    400630: IK_R.013
+    400632: IK_R.014
+    400634: IK_R.015
+    400636: IK_R.016
+    400638: IK_TL
+    400640: IK_TL.001
+    400642: ikA
+    400644: ikA.001
+    400646: leg_F1.000
+    400648: leg_F1.001
+    400650: leg_F1.002
+    400652: leg_F1.003
+    400654: leg_F2.000
+    400656: leg_F2.001
+    400658: leg_F2.002
+    400660: leg_F2.003
+    400662: leg_F3.000
+    400664: leg_F3.001
+    400666: leg_F3.002
+    400668: leg_F3.003
+    400670: leg_F4.000
+    400672: leg_F4.001
+    400674: leg_F4.002
+    400676: leg_F4.003
+    400678: leg_F5.000
+    400680: leg_F5.001
+    400682: leg_F5.002
+    400684: leg_F5.003
+    400686: leg_Fbase.000
+    400688: leg_Fbase.001
+    400690: leg_Fbase.002
+    400692: leg_Fbase.003
+    400694: leg_FR0
+    400696: leg_FR0.001
+    400698: leg_FR0.002
+    400700: leg_FR0.003
+    400702: leg_FR1
+    400704: leg_FR1.001
+    400706: leg_FR1.002
+    400708: leg_FR1.003
+    400710: leg_FR2
+    400712: leg_FR2.001
+    400714: leg_FR2.002
+    400716: leg_FR2.003
+    400718: leg_FR3
+    400720: leg_FR3.001
+    400722: leg_FR3.002
+    400724: leg_FR3.003
+    400726: leg_FR4
+    400728: leg_FR4.001
+    400730: leg_FR4.002
+    400732: leg_FR4.003
+    400734: leg_FRbase
+    400736: leg_FRbase.001
+    400738: leg_FRbase.002
+    400740: leg_FRbase.003
+    400742: Leg_R
+    400744: Leg_R.001
+    400746: Leg_R.002
+    400748: Leg_R.003
+    400750: Leg_R.004
+    400752: Leg_R.005
+    400754: Leg_R.006
+    400756: Leg_R.007
+    400758: Leg_R.008
+    400760: Leg_R.009
+    400762: Leg_R.010
+    400764: Leg_R.011
+    400766: Leg_R.012
+    400768: Leg_R.013
+    400770: Leg_R.014
+    400772: Leg_R.015
+    400774: leg_R0
+    400776: leg_R0.001
+    400778: leg_R0.002
+    400780: leg_R0.003
+    400782: leg_R0.004
+    400784: leg_R0.005
+    400786: leg_R0.006
+    400788: leg_R0.007
+    400790: leg_R0.008
+    400792: leg_R0.009
+    400794: leg_R0.010
+    400796: leg_R0.011
+    400798: leg_R0.012
+    400800: leg_R0.013
+    400802: leg_R0.014
+    400804: leg_R0.015
+    400806: leg_R1
+    400808: leg_R1.001
+    400810: leg_R1.002
+    400812: leg_R1.003
+    400814: leg_R1.004
+    400816: leg_R1.005
+    400818: leg_R1.006
+    400820: leg_R1.007
+    400822: leg_R1.008
+    400824: leg_R1.009
+    400826: leg_R1.010
+    400828: leg_R1.011
+    400830: leg_R1.012
+    400832: leg_R1.013
+    400834: leg_R1.014
+    400836: leg_R1.015
+    400838: leg_R2
+    400840: leg_R2.001
+    400842: leg_R2.002
+    400844: leg_R2.003
+    400846: leg_R2.004
+    400848: leg_R2.005
+    400850: leg_R2.006
+    400852: leg_R2.007
+    400854: leg_R2.008
+    400856: leg_R2.009
+    400858: leg_R2.010
+    400860: leg_R2.011
+    400862: leg_R2.012
+    400864: leg_R2.013
+    400866: leg_R2.014
+    400868: leg_R2.015
+    400870: leg_R3
+    400872: leg_R3.001
+    400874: leg_R3.002
+    400876: leg_R3.003
+    400878: leg_R3.004
+    400880: leg_R3.005
+    400882: leg_R3.006
+    400884: leg_R3.007
+    400886: leg_R3.008
+    400888: leg_R3.009
+    400890: leg_R3.010
+    400892: leg_R3.011
+    400894: leg_R3.012
+    400896: leg_R3.013
+    400898: leg_R3.014
+    400900: leg_R3.015
+    400902: leg_R4
+    400904: leg_R4.001
+    400906: leg_R4.002
+    400908: leg_R4.003
+    400910: leg_R4.004
+    400912: leg_R4.005
+    400914: leg_R4.006
+    400916: leg_R4.007
+    400918: leg_R4.008
+    400920: leg_R4.009
+    400922: leg_R4.010
+    400924: leg_R4.011
+    400926: leg_R4.012
+    400928: leg_R4.013
+    400930: leg_R4.014
+    400932: leg_R4.015
+    400934: leg_Rbase
+    400936: leg_Rbase.001
+    400938: leg_Rbase.002
+    400940: leg_Rbase.003
+    400942: leg_Rbase.004
+    400944: leg_Rbase.005
+    400946: leg_Rbase.006
+    400948: leg_Rbase.007
+    400950: leg_Rbase.008
+    400952: leg_Rbase.009
+    400954: leg_Rbase.010
+    400956: leg_Rbase.011
+    400958: leg_Rbase.012
+    400960: leg_Rbase.013
+    400962: leg_Rbase.014
+    400964: leg_Rbase.015
+    400966: Leg_TL
+    400968: leg_TL0
+    400970: leg_TL1
+    400972: leg_TL2
+    400974: leg_TL3
+    400976: leg_TL4
+    400978: leg_TLbase
+    400980: Leg_TR
+    400982: leg_TR0
+    400984: leg_TR1
+    400986: leg_TR2
+    400988: leg_TR3
+    400990: leg_TR4
+    400992: leg_TRbase
+    400994: node_p
+    400996: node_p.001
+    400998: node_p.002
+    401000: node_p.003
+    401002: node_p.004
+    401004: node_p.005
+    401006: node_p.006
+    401008: node_p.007
+    401010: pygidium
+    401012: Roundcube
+    401014: Roundcube.001
+    2300000: Cephalon
+    2300002: EYE01.000
+    2300004: EYE01.003
+    2300006: Gill-base.000
+    2300008: Gill-base.001
+    2300010: Gill-base.002
+    2300012: Gill-base.003
+    2300014: Gill-Fbase
+    2300016: Gill-Fbase.001
+    2300018: Gill-Fbase.002
+    2300020: Gill-Fbase.003
+    2300022: Gill-Rbase
+    2300024: Gill-Rbase.001
+    2300026: Gill-Rbase.002
+    2300028: Gill-Rbase.003
+    2300030: Gill-Rbase.004
+    2300032: Gill-Rbase.005
+    2300034: Gill-Rbase.006
+    2300036: Gill-Rbase.007
+    2300038: Gill-Rbase.008
+    2300040: Gill-Rbase.009
+    2300042: Gill-Rbase.010
+    2300044: Gill-Rbase.011
+    2300046: Gill-Rbase.012
+    2300048: Gill-Rbase.013
+    2300050: Gill-Rbase.014
+    2300052: Gill-Rbase.015
+    2300054: Gill-TLbase
+    2300056: Gill-TRbase
+    2300058: hypostome
+    2300060: leg_F1.000
+    2300062: leg_F1.001
+    2300064: leg_F1.002
+    2300066: leg_F1.003
+    2300068: leg_F2.000
+    2300070: leg_F2.001
+    2300072: leg_F2.002
+    2300074: leg_F2.003
+    2300076: leg_F3.000
+    2300078: leg_F3.001
+    2300080: leg_F3.002
+    2300082: leg_F3.003
+    2300084: leg_F4.000
+    2300086: leg_F4.001
+    2300088: leg_F4.002
+    2300090: leg_F4.003
+    2300092: leg_F5.000
+    2300094: leg_F5.001
+    2300096: leg_F5.002
+    2300098: leg_F5.003
+    2300100: leg_Fbase.000
+    2300102: leg_Fbase.001
+    2300104: leg_Fbase.002
+    2300106: leg_Fbase.003
+    2300108: leg_FR0
+    2300110: leg_FR0.001
+    2300112: leg_FR0.002
+    2300114: leg_FR0.003
+    2300116: leg_FR1
+    2300118: leg_FR1.001
+    2300120: leg_FR1.002
+    2300122: leg_FR1.003
+    2300124: leg_FR2
+    2300126: leg_FR2.001
+    2300128: leg_FR2.002
+    2300130: leg_FR2.003
+    2300132: leg_FR3
+    2300134: leg_FR3.001
+    2300136: leg_FR3.002
+    2300138: leg_FR3.003
+    2300140: leg_FR4
+    2300142: leg_FR4.001
+    2300144: leg_FR4.002
+    2300146: leg_FR4.003
+    2300148: leg_FRbase
+    2300150: leg_FRbase.001
+    2300152: leg_FRbase.002
+    2300154: leg_FRbase.003
+    2300156: leg_R0
+    2300158: leg_R0.001
+    2300160: leg_R0.002
+    2300162: leg_R0.003
+    2300164: leg_R0.004
+    2300166: leg_R0.005
+    2300168: leg_R0.006
+    2300170: leg_R0.007
+    2300172: leg_R0.008
+    2300174: leg_R0.009
+    2300176: leg_R0.010
+    2300178: leg_R0.011
+    2300180: leg_R0.012
+    2300182: leg_R0.013
+    2300184: leg_R0.014
+    2300186: leg_R0.015
+    2300188: leg_R1
+    2300190: leg_R1.001
+    2300192: leg_R1.002
+    2300194: leg_R1.003
+    2300196: leg_R1.004
+    2300198: leg_R1.005
+    2300200: leg_R1.006
+    2300202: leg_R1.007
+    2300204: leg_R1.008
+    2300206: leg_R1.009
+    2300208: leg_R1.010
+    2300210: leg_R1.011
+    2300212: leg_R1.012
+    2300214: leg_R1.013
+    2300216: leg_R1.014
+    2300218: leg_R1.015
+    2300220: leg_R2
+    2300222: leg_R2.001
+    2300224: leg_R2.002
+    2300226: leg_R2.003
+    2300228: leg_R2.004
+    2300230: leg_R2.005
+    2300232: leg_R2.006
+    2300234: leg_R2.007
+    2300236: leg_R2.008
+    2300238: leg_R2.009
+    2300240: leg_R2.010
+    2300242: leg_R2.011
+    2300244: leg_R2.012
+    2300246: leg_R2.013
+    2300248: leg_R2.014
+    2300250: leg_R2.015
+    2300252: leg_R3
+    2300254: leg_R3.001
+    2300256: leg_R3.002
+    2300258: leg_R3.003
+    2300260: leg_R3.004
+    2300262: leg_R3.005
+    2300264: leg_R3.006
+    2300266: leg_R3.007
+    2300268: leg_R3.008
+    2300270: leg_R3.009
+    2300272: leg_R3.010
+    2300274: leg_R3.011
+    2300276: leg_R3.012
+    2300278: leg_R3.013
+    2300280: leg_R3.014
+    2300282: leg_R3.015
+    2300284: leg_R4
+    2300286: leg_R4.001
+    2300288: leg_R4.002
+    2300290: leg_R4.003
+    2300292: leg_R4.004
+    2300294: leg_R4.005
+    2300296: leg_R4.006
+    2300298: leg_R4.007
+    2300300: leg_R4.008
+    2300302: leg_R4.009
+    2300304: leg_R4.010
+    2300306: leg_R4.011
+    2300308: leg_R4.012
+    2300310: leg_R4.013
+    2300312: leg_R4.014
+    2300314: leg_R4.015
+    2300316: leg_Rbase
+    2300318: leg_Rbase.001
+    2300320: leg_Rbase.002
+    2300322: leg_Rbase.003
+    2300324: leg_Rbase.004
+    2300326: leg_Rbase.005
+    2300328: leg_Rbase.006
+    2300330: leg_Rbase.007
+    2300332: leg_Rbase.008
+    2300334: leg_Rbase.009
+    2300336: leg_Rbase.010
+    2300338: leg_Rbase.011
+    2300340: leg_Rbase.012
+    2300342: leg_Rbase.013
+    2300344: leg_Rbase.014
+    2300346: leg_Rbase.015
+    2300348: leg_TL0
+    2300350: leg_TL1
+    2300352: leg_TL2
+    2300354: leg_TL3
+    2300356: leg_TL4
+    2300358: leg_TLbase
+    2300360: leg_TR0
+    2300362: leg_TR1
+    2300364: leg_TR2
+    2300366: leg_TR3
+    2300368: leg_TR4
+    2300370: leg_TRbase
+    2300372: node_p
+    2300374: node_p.002
+    2300376: pygidium
+    2300378: Roundcube
+    2300380: Roundcube.001
+    3300000: Cephalon
+    3300002: EYE01.000
+    3300004: EYE01.003
+    3300006: Gill-base.000
+    3300008: Gill-base.001
+    3300010: Gill-base.002
+    3300012: Gill-base.003
+    3300014: Gill-Fbase
+    3300016: Gill-Fbase.001
+    3300018: Gill-Fbase.002
+    3300020: Gill-Fbase.003
+    3300022: Gill-Rbase
+    3300024: Gill-Rbase.001
+    3300026: Gill-Rbase.002
+    3300028: Gill-Rbase.003
+    3300030: Gill-Rbase.004
+    3300032: Gill-Rbase.005
+    3300034: Gill-Rbase.006
+    3300036: Gill-Rbase.007
+    3300038: Gill-Rbase.008
+    3300040: Gill-Rbase.009
+    3300042: Gill-Rbase.010
+    3300044: Gill-Rbase.011
+    3300046: Gill-Rbase.012
+    3300048: Gill-Rbase.013
+    3300050: Gill-Rbase.014
+    3300052: Gill-Rbase.015
+    3300054: Gill-TLbase
+    3300056: Gill-TRbase
+    3300058: hypostome
+    3300060: leg_F1.000
+    3300062: leg_F1.001
+    3300064: leg_F1.002
+    3300066: leg_F1.003
+    3300068: leg_F2.000
+    3300070: leg_F2.001
+    3300072: leg_F2.002
+    3300074: leg_F2.003
+    3300076: leg_F3.000
+    3300078: leg_F3.001
+    3300080: leg_F3.002
+    3300082: leg_F3.003
+    3300084: leg_F4.000
+    3300086: leg_F4.001
+    3300088: leg_F4.002
+    3300090: leg_F4.003
+    3300092: leg_F5.000
+    3300094: leg_F5.001
+    3300096: leg_F5.002
+    3300098: leg_F5.003
+    3300100: leg_Fbase.000
+    3300102: leg_Fbase.001
+    3300104: leg_Fbase.002
+    3300106: leg_Fbase.003
+    3300108: leg_FR0
+    3300110: leg_FR0.001
+    3300112: leg_FR0.002
+    3300114: leg_FR0.003
+    3300116: leg_FR1
+    3300118: leg_FR1.001
+    3300120: leg_FR1.002
+    3300122: leg_FR1.003
+    3300124: leg_FR2
+    3300126: leg_FR2.001
+    3300128: leg_FR2.002
+    3300130: leg_FR2.003
+    3300132: leg_FR3
+    3300134: leg_FR3.001
+    3300136: leg_FR3.002
+    3300138: leg_FR3.003
+    3300140: leg_FR4
+    3300142: leg_FR4.001
+    3300144: leg_FR4.002
+    3300146: leg_FR4.003
+    3300148: leg_FRbase
+    3300150: leg_FRbase.001
+    3300152: leg_FRbase.002
+    3300154: leg_FRbase.003
+    3300156: leg_R0
+    3300158: leg_R0.001
+    3300160: leg_R0.002
+    3300162: leg_R0.003
+    3300164: leg_R0.004
+    3300166: leg_R0.005
+    3300168: leg_R0.006
+    3300170: leg_R0.007
+    3300172: leg_R0.008
+    3300174: leg_R0.009
+    3300176: leg_R0.010
+    3300178: leg_R0.011
+    3300180: leg_R0.012
+    3300182: leg_R0.013
+    3300184: leg_R0.014
+    3300186: leg_R0.015
+    3300188: leg_R1
+    3300190: leg_R1.001
+    3300192: leg_R1.002
+    3300194: leg_R1.003
+    3300196: leg_R1.004
+    3300198: leg_R1.005
+    3300200: leg_R1.006
+    3300202: leg_R1.007
+    3300204: leg_R1.008
+    3300206: leg_R1.009
+    3300208: leg_R1.010
+    3300210: leg_R1.011
+    3300212: leg_R1.012
+    3300214: leg_R1.013
+    3300216: leg_R1.014
+    3300218: leg_R1.015
+    3300220: leg_R2
+    3300222: leg_R2.001
+    3300224: leg_R2.002
+    3300226: leg_R2.003
+    3300228: leg_R2.004
+    3300230: leg_R2.005
+    3300232: leg_R2.006
+    3300234: leg_R2.007
+    3300236: leg_R2.008
+    3300238: leg_R2.009
+    3300240: leg_R2.010
+    3300242: leg_R2.011
+    3300244: leg_R2.012
+    3300246: leg_R2.013
+    3300248: leg_R2.014
+    3300250: leg_R2.015
+    3300252: leg_R3
+    3300254: leg_R3.001
+    3300256: leg_R3.002
+    3300258: leg_R3.003
+    3300260: leg_R3.004
+    3300262: leg_R3.005
+    3300264: leg_R3.006
+    3300266: leg_R3.007
+    3300268: leg_R3.008
+    3300270: leg_R3.009
+    3300272: leg_R3.010
+    3300274: leg_R3.011
+    3300276: leg_R3.012
+    3300278: leg_R3.013
+    3300280: leg_R3.014
+    3300282: leg_R3.015
+    3300284: leg_R4
+    3300286: leg_R4.001
+    3300288: leg_R4.002
+    3300290: leg_R4.003
+    3300292: leg_R4.004
+    3300294: leg_R4.005
+    3300296: leg_R4.006
+    3300298: leg_R4.007
+    3300300: leg_R4.008
+    3300302: leg_R4.009
+    3300304: leg_R4.010
+    3300306: leg_R4.011
+    3300308: leg_R4.012
+    3300310: leg_R4.013
+    3300312: leg_R4.014
+    3300314: leg_R4.015
+    3300316: leg_Rbase
+    3300318: leg_Rbase.001
+    3300320: leg_Rbase.002
+    3300322: leg_Rbase.003
+    3300324: leg_Rbase.004
+    3300326: leg_Rbase.005
+    3300328: leg_Rbase.006
+    3300330: leg_Rbase.007
+    3300332: leg_Rbase.008
+    3300334: leg_Rbase.009
+    3300336: leg_Rbase.010
+    3300338: leg_Rbase.011
+    3300340: leg_Rbase.012
+    3300342: leg_Rbase.013
+    3300344: leg_Rbase.014
+    3300346: leg_Rbase.015
+    3300348: leg_TL0
+    3300350: leg_TL1
+    3300352: leg_TL2
+    3300354: leg_TL3
+    3300356: leg_TL4
+    3300358: leg_TLbase
+    3300360: leg_TR0
+    3300362: leg_TR1
+    3300364: leg_TR2
+    3300366: leg_TR3
+    3300368: leg_TR4
+    3300370: leg_TRbase
+    3300372: node_p
+    3300374: node_p.002
+    3300376: pygidium
+    3300378: Roundcube
+    3300380: Roundcube.001
+    4300000: node_p
+    4300002: leg_Rbase
+    4300004: Gill-Rbase
+    4300006: leg_R0
+    4300008: leg_R1
+    4300010: leg_R2
+    4300012: leg_R3
+    4300014: leg_R4
+    4300016: Gill-Rbase.001
+    4300018: node_p.001
+    4300020: Gill-Rbase.003
+    4300022: Gill-Rbase.002
+    4300024: node_p.002
+    4300026: Gill-Rbase.005
+    4300028: Gill-Rbase.004
+    4300030: node_p.003
+    4300032: Gill-Rbase.007
+    4300034: Gill-Rbase.006
+    4300036: node_p.004
+    4300038: Gill-Rbase.009
+    4300040: Gill-Rbase.008
+    4300042: node_p.005
+    4300044: Gill-Rbase.011
+    4300046: Gill-Rbase.010
+    4300048: node_p.006
+    4300050: Gill-Rbase.013
+    4300052: Gill-Rbase.012
+    4300054: node_p.007
+    4300056: Gill-Rbase.015
+    4300058: Gill-Rbase.014
+    4300060: pygidium
+    4300062: leg_TLbase
+    4300064: Gill-TLbase
+    4300066: leg_TL0
+    4300068: leg_TL1
+    4300070: leg_TL2
+    4300072: leg_TL3
+    4300074: leg_TL4
+    4300076: Gill-TRbase
+    4300078: Cephalon
+    4300080: leg_FRbase.003
+    4300082: Gill-Fbase.003
+    4300084: leg_FR0.003
+    4300086: leg_FR1.003
+    4300088: leg_FR2.003
+    4300090: leg_FR3.003
+    4300092: leg_FR4.003
+    4300094: Gill-base.003
+    4300096: Gill-base.002
+    4300098: Gill-Fbase.002
+    4300100: Gill-Fbase.001
+    4300102: Gill-base.000
+    4300104: EYE01.000
+    4300106: hypostome
+    4300108: Gill-base.001
+    4300110: Gill-Fbase
+    4300112: Roundcube
+    4300114: base
+    7400000: Armature|ArmatureAction.001
+    7400002: Armature|ikA.001Action
+    7400004: Armature|ikAAction
+    7400006: ikA|ikA.001Action
+    7400008: ikA|ikAAction
+    7400010: ikA.001|ikA.001Action
+    7400012: ikA.001|ikAAction
+    9500000: //RootNode
+    13700000: base
+    13700002: base.001
+    13700004: node_p.001
+    13700006: node_p.003
+    13700008: node_p.004
+    13700010: node_p.005
+    13700012: node_p.006
+    13700014: node_p.007
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default_Asaphus_00
+    second: {fileID: 2100000, guid: 45f40e40618633f408066dfbd683331b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: ceceab0c79e311340aa00356166f5a3c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 6596c33ff6ea2274b853ab5a1dbb87fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: d4c4969acd65d36408d7810935fd4b28, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red.003
+    second: {fileID: 2100000, guid: 2e0456c5f82df7f42a505c9db52bf2e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leg_material
+    second: {fileID: 2100000, guid: fa60b1fe355a7bc43a9923c83f9e512a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leg_material.001
+    second: {fileID: 2100000, guid: f93eefaa10ea89e4cb3519216bc35aff, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|ArmatureAction.001
+      takeName: Armature|ArmatureAction.001
+      firstFrame: 0
+      lastFrame: 16
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 0
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

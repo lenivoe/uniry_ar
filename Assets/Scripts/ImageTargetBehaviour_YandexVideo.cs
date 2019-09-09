@@ -1,15 +1,13 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using System.IO;
-using System.Linq;
+﻿using UnityEngine;
 using VPlayer = EasyAR.VideoPlayerBaseBehaviour;
 
 public class ImageTargetBehaviour_YandexVideo : ImageTargetBehaviour {
     public enum VideoScaleType { Fill, FitWidth, FitHeight, Fit }
+    
     public VideoScaleType videoScaleType = VideoScaleType.Fill;
     public string yandexLink;
-    private YandexDownloader downloader = null;
+
+    private readonly YandexDownloader downloader = new YandexDownloader();
     private MessagerBehaviour messager = null;
     private VPlayer player = null;
     private bool needOpenPlayer = false;
@@ -17,7 +15,7 @@ public class ImageTargetBehaviour_YandexVideo : ImageTargetBehaviour {
 
     protected override void Start() {
         base.Start();
-        downloader = new YandexDownloader();
+        
         messager = FindObjectOfType<MessagerBehaviour>();
         TargetFound += OnTargetFound;
         player = AttachPlayer(transform);
@@ -67,17 +65,17 @@ public class ImageTargetBehaviour_YandexVideo : ImageTargetBehaviour {
         if (isGettingLink)
             return;
 
-        if (!AppController.HaveInetConnection) {
-            messager.ShowMessege("Проблема с интернет-соединением...");
+        if (!AppController.Inst.HaveInetConnection) {
+            messager.SetMessege("Проблема с интернет-соединением...");
             return;
         }
-        messager.ShowMessege("Загрузка видео...", float.PositiveInfinity);
+        messager.SetMessege("Загрузка видео...", float.PositiveInfinity);
 
         isGettingLink = true;
         downloader.GetDirectLinkAsync((string directLink, bool isTimeout) => {
             isGettingLink = false;
             if (isTimeout) {
-                messager.ShowMessege("Проблема с интернет-соединением...");
+                messager.SetMessege("Проблема с интернет-соединением...");
                 return;
             }
             player.Path = directLink;

@@ -917,12 +917,14 @@ public class Everyplay : MonoBehaviour
 [InitializeOnLoad]
 public class EveryplayEditorRecording
 {
+    [Obsolete]
     static EveryplayEditorRecording()
     {
-        EditorApplication.playModeStateChanged += OnUnityPlayModeChanged;
+        EditorApplication.playmodeStateChanged = OnUnityPlayModeChanged;
     }
 
-    private static void OnUnityPlayModeChanged(PlayModeStateChange obj) {
+    private static void OnUnityPlayModeChanged()
+    {
         if (EditorApplication.isPaused == true)
         {
             Everyplay.PauseRecording();

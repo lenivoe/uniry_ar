@@ -15,15 +15,15 @@ public class RecordBtnBehaviour : MonoBehaviour {
 
     public void OnRecordButtonClick() {
         if (!Everyplay.IsRecordingSupported()) {
-            messager.ShowMessege("Запись видео не поддерживается вашим устройством");
+            messager.SetMessege("Запись видео не поддерживается вашим устройством");
         } else if (!Everyplay.IsReadyForRecording()) {
-            messager.ShowMessege("Необходимо разовое подключение к интернету");
+            messager.SetMessege("Необходимо разовое подключение к интернету");
         } else {
             animator.SetBool(isRecordingParamId, !animator.GetBool(isRecordingParamId));
             photoBtn.interactable = !photoBtn.interactable;
             switchCamBtn.interactable = !switchCamBtn.interactable;
 
-            videoRecorder.StartStopRecord();
+            videoRecorder.ToggleRecord();
         }
     }
 
@@ -58,6 +58,6 @@ public class RecordBtnBehaviour : MonoBehaviour {
     }
     private void OnRecordStop() {
         clickSound.Play();
-        messager.ShowMessege("Видео сохранено");
+        messager.SetMessege("Видео сохранено");
     }
 }

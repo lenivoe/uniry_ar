@@ -1,41 +1,57 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 // асинхронно выводит сообщения на экран
 public class MessagerBehaviour : MonoBehaviour {
-    private float liveTimeInSec = 0;
-    private Text messegeText = null;
-    private float startTime = 0;
-    private bool needShow = false;
-    private bool needHandleMessage = false;
-    private string msg = null;
+    private enum State { PRESHOW, SHOW, PREHIDE, HIDE }
 
-    public void ShowMessege(string message) { ShowMessege(message, 2); }
-    public void ShowMessege(string message, float time) {
+    private Text messegeGui = null;
+    
+    private State state = State.HIDE;
+    private string msg = null;
+    private float liveTimeInSec = 0;
+    private float startTime;
+
+
+    public void SetMessege(string message, float time = 2) {
         msg = message;
         liveTimeInSec = time;
-        needShow = true;
-        needHandleMessage = true;
+        state = State.PRESHOW;
     }
 
-    public void Clear() { ShowMessege("", 0); }
+    public void Clear() { state = State.PREHIDE; }
+
 
     void Start() {
-        messegeText = GetComponent<Text>();
-        messegeText.enabled = false;
+        messegeGui = GetComponent<Text>();
+        HideGui();
     }
+    
     void Update() {
-        if(needHandleMessage) {
-            needHandleMessage = false;
-            startTime = Time.time;
-            messegeText.text = msg;
-            messegeText.enabled = true;
+        switch(state) {
+            case State.SHOW:
+                if((Time.time - startTime) >= liveTimeInSec) {
+                    state = State.PREHIDE;
+                }
+                break;
+            case State.PREHIDE:
+                HideGui();
+                state = State.HIDE;
+                break;
+            case State.PRESHOW:
+                ShowGui();
+                state = State.SHOW;
+                break;
         }
-        if (needShow && Time.time - startTime >= liveTimeInSec) {
-            needShow = false;
-            messegeText.enabled = false;
-        }
+    }
+
+    private void ShowGui() {
+        startTime = Time.time;
+        messegeGui.text = msg;
+        messegeGui.enabled = true;
+    }
+
+    private void HideGui() {
+        messegeGui.enabled = false;
     }
 }

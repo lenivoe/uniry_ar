@@ -1,50 +1,49 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using AndroidWrap;
 
 public class PdfViewer {
-    public const string ActivityClassName = "com.plugin58.levis.pdfplugin.PdfViewActivity";
+    public const string ACTIVITY_CLASS_NAME = "com.plugin58.levis.pdfplugin.PdfViewActivity";
 
-    private static bool needHandleActivity = false;
-    private static string filename = null;
+
+    public static readonly PdfViewer Inst = new PdfViewer();
+
+
+    private string pdfName = null;
+    private bool needStartActivity => pdfName != null;
 
     
-    public static void StartActivityAsync(string pdfFilename) {
-        if (!needHandleActivity) {
-            filename = pdfFilename;
-            needHandleActivity = true;
+    public void StartActivityAsync(string pdfFilename) {
+        if (!needStartActivity) {
+            pdfName = pdfFilename;
         }
     }
 
-    // нужно вызывать циклично в главном потоке (вставить в Update какого-нибудь потомка MonoBehaviour)
-    public static void MainThreadLoop() {
-        if(needHandleActivity) {
-            StartActivity(filename);
-            needHandleActivity = false;
+    // нужно циклично вызывать в главном потоке (в основном из Update какого-нибудь потомка MonoBehaviour)
+    public void MainThreadLoop() {
+        if(needStartActivity) {
+            StartActivity(pdfName);
+            pdfName = null;
         }
     }
 
 
-    public static void StartActivity(string pdfFilename) {
-        if (string.IsNullOrEmpty(ActivityClassName)) {
-            ToastMessage.Inst.Show("activity class name error: " + ActivityClassName);
-            return;
-        }
+    public void StartActivity(string pdfFilename) {
         if (string.IsNullOrEmpty(pdfFilename)) {
             ToastMessage.Inst.Show("pdf file name error: " + pdfFilename);
             return;
         }
 
-        AndroidJavaClass unityPlayer = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
-        AndroidJavaObject unityActivity = unityPlayer.GetStatic<AndroidJavaObject>("currentActivity");
-        AndroidJavaClass activityClass = new AndroidJavaClass(ActivityClassName);
-        AndroidJavaObject intent = new AndroidJavaObject("android.content.Intent", unityActivity, activityClass);
+        var activityClass = new AndroidJavaClass(ACTIVITY_CLASS_NAME);
 
+        var intent = Obj.CreateIntent(Obj.UnityActivity, activityClass);
         string extraMsgName = activityClass.GetStatic<string>("EXTRA_FILENAME");
-        string filename = pdfFilename[0] == '/' ? pdfFilename : Application.persistentDataPath + "/" + pdfFilename;
-        intent.Call<AndroidJavaObject>("putExtra", extraMsgName, filename);
-        unityActivity.Call("startActivity", intent);
+        intent.Call<AndroidJavaObject>("putExtra", extraMsgName, pdfFilename);
 
-        Debug.Log("activity started with file: " + filename);
+        Obj.UnityActivity.Call("startActivity", intent);
+
+        Debug.Log("activity started with file: " + pdfFilename);
     }
+
+
+    private PdfViewer() { }
 }

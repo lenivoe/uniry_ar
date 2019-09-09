@@ -1,42 +1,21 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 using System;
-using System.IO;
 
+using AndroidWrap;
 
 [RequireComponent(typeof(AudioSource))]
 public class VideoRecorder : MonoBehaviour {
-    //
-    // video record control
-    //
-
-    public void StartRecord() {
-        if (!Everyplay.IsRecordingSupported()) {
-            logger += "Video recording is not supported";
-        } else if (!Everyplay.IsReadyForRecording()) {
-            logger += "Device is not ready for record";
-        } else {
-            if (PreRecordStarted != null)
-                PreRecordStarted();
-            Utils.Inst.Shedule(() => Everyplay.StartRecording(), delayBeforeRecordStarted);
-        }
-    }
-    public void StopRecord() {
-        Everyplay.StopRecording();
-    }
-    public void StartStopRecord() {
-        if (!Everyplay.IsRecording())
-            StartRecord();
-        else
-            StopRecord();
-    }
+    public Text logText;
+    public float delayBeforeRecordStarted = 0.2f;
+    public float delayAfterRecordEnded = 0.1f;
 
 
 
+    public event Action PreRecordStarted;
+    public event Action PostRecordStoped;
 
-    class AutoorientationInfoKeeper {
+    private class AutoorientationInfoKeeper {
         public AutoorientationInfoKeeper() { SavePermissions(); }
 
         public void SavePermissions() {
@@ -58,30 +37,39 @@ public class VideoRecorder : MonoBehaviour {
         private bool isAllowedToLandscapeLeft { get; set; }
         private bool isAllowedToLandscapeRight { get; set; }
     }
+
+
     private AutoorientationInfoKeeper orInfoKeeper = null;
-
-    public Text logText = null;
     private Logger logger = null;
-
     private AudioSource micSound = null;
 
-    public event Action PreRecordStarted;
-    public event Action PostRecordStoped;
-
-    public float delayBeforeRecordStarted = 0.2f;
-    public float delayAfterRecordEnded = 0.1f;
+    private bool isSpeakersMuted = false;
 
 
-#if UNITY_ANDROID && !UNITY_EDITOR
-    const int STREAM_VOICE_CALL = 0;
-    const int STREAM_SYSTEM = 1;
-    const int STREAM_MUSIC = 3;
-    const int USE_DEFAULT_STREAM_TYPE = -2147483648;
+    //
+    // video record control
+    //
 
-    private int curAndroidMusicVolume = 0;
-    private int minAndroidMusicVolume = 0;
-    private bool isAndroidMuted = false;
-#endif
+    public void StartRecord() {
+        if (!Everyplay.IsRecordingSupported()) {
+            logger += "Video recording is not supported";
+        } else if (!Everyplay.IsReadyForRecording()) {
+            logger += "Device is not ready for record";
+        } else {
+            if (PreRecordStarted != null)
+                PreRecordStarted();
+            Utils.Inst.Shedule(() => Everyplay.StartRecording(), delayBeforeRecordStarted);
+        }
+    }
+    public void StopRecord() {
+        Everyplay.StopRecording();
+    }
+    public void ToggleRecord() {
+        if (!Everyplay.IsRecording())
+            StartRecord();
+        else
+            StopRecord();
+    }
 
 
     //
@@ -89,11 +77,8 @@ public class VideoRecorder : MonoBehaviour {
     //
 
     void Update() {
-#if UNITY_ANDROID && !UNITY_EDITOR
-        // permanent sound disabling is while video is recording
-        if (isAndroidMuted)
-            AndroidWrap.AudioManagerObj.Call("setStreamVolume", STREAM_MUSIC, minAndroidMusicVolume, 0);
-#endif
+        // hack: permanent sound disabling is while video is recording
+        MuteSpeakers(isSpeakersMuted);
     }
 
     void Start() {
@@ -102,11 +87,9 @@ public class VideoRecorder : MonoBehaviour {
         micSound = GetComponent<AudioSource>();
         orInfoKeeper = new AutoorientationInfoKeeper();
 
-#if UNITY_ANDROID && !UNITY_EDITOR
-        curAndroidMusicVolume = AndroidWrap.AudioManagerObj.Call<int>("getStreamVolume", STREAM_MUSIC);
-        minAndroidMusicVolume = AndroidWrap.AudioManagerObj.Call<int>("getStreamMinVolume", STREAM_MUSIC);
-#endif
+        CacheVolumesValues();
     }
+
     void Awake() {
         Everyplay.RecordingStarted += OnRecordStarted;
         Everyplay.RecordingStopped += OnRecordStopped;
@@ -121,20 +104,22 @@ public class VideoRecorder : MonoBehaviour {
         Everyplay.FileReady -= OnFileReady;
 
         StopMicrophone();
-        SetSpeakersMute(false);
+        MuteSpeakers(false);
     }
+
     void OnRecordStarted() {
         logger += "Recording was started";
         AllowAutorotation(false);
-        SetSpeakersMute(true);
+        MuteSpeakers(true);
         StartMicrophone();
     }
+
     void OnRecordStopped() {
         logger += "Recording ended";
         StopMicrophone();
         AllowAutorotation(true);
         Utils.Inst.Shedule(() => {
-            SetSpeakersMute(false);
+            MuteSpeakers(false);
             if (PostRecordStoped != null)
                 PostRecordStoped();
         }, delayAfterRecordEnded);
@@ -153,6 +138,8 @@ public class VideoRecorder : MonoBehaviour {
         var result = NativeGallery.SaveVideoToGallery(fileSrc, Application.productName, fileDst, errMsg => logger += errMsg);
         logger += "Video saving permission: " + result;
     }
+
+
 
     //
     // tools
@@ -183,6 +170,7 @@ public class VideoRecorder : MonoBehaviour {
         while (Microphone.GetPosition(null) <= 0) { } // Ждем, пока запись не начнется 
         micSound.Play(); // Проигрываем наш звук
     }
+
     private void StopMicrophone() {
         Microphone.End(null);
         micSound.Stop();
@@ -190,24 +178,52 @@ public class VideoRecorder : MonoBehaviour {
 
 
 
+    void MuteSpeakers(bool isEnabled) {
+        if(isSpeakersMuted != isEnabled) {
+            MuteSpeakersPlatformed(isSpeakersMuted = isEnabled);
+        }
+    }
+
 
     //
     // platform dependent code
     //
-    
-    void SetSpeakersMute(bool isMute) {
-#if UNITY_ANDROID && !UNITY_EDITOR
-        isAndroidMuted = isMute;
-        if (isMute) {
-            curAndroidMusicVolume = AndroidWrap.AudioManagerObj.Call<int>("getStreamVolume", STREAM_MUSIC);
+
+#if UNITY_EDITOR
+    void MuteSpeakersPlatformed(bool isEnabled) { AudioListener.volume = isEnabled ? 0 : 1; }
+    void CacheVolumesValues() { }
+
+#elif UNITY_IPHONE
+    // STUB: only micro disables
+    void MuteSpeakersPlatformed(bool isEnabled) { StopMicrophone(); }
+    void CacheVolumesValues() { }
+
+#elif UNITY_ANDROID
+    const int STREAM_VOICE_CALL = 0;
+    const int STREAM_SYSTEM = 1;
+    const int STREAM_MUSIC = 3;
+    const int USE_DEFAULT_STREAM_TYPE = -2147483648;
+
+    private int curVolume = 0;
+    private int minVolume = 0;
+
+
+
+    void MuteSpeakersPlatformed(bool isEnabled) {
+        if (isEnabled) {
+            curVolume = Obj.AudioManager.Call<int>("getStreamVolume", STREAM_MUSIC);
+            Obj.AudioManager.Call("setStreamVolume", STREAM_MUSIC, minVolume, 0);
+        } else {
+            Obj.AudioManager.Call("setStreamVolume", STREAM_MUSIC, curVolume, 0);
         }
-        AndroidWrap.AudioManagerObj.Call("setStreamVolume",
-            STREAM_MUSIC, isMute ? minAndroidMusicVolume : curAndroidMusicVolume, 0);
-#elif UNITY_IPHONE && !UNITY_EDITOR
-        // STUB: disable only micro
-        StopMicrophone();
-#else
-        AudioListener.volume = isMute ? 0 : 1;
-#endif
     }
+
+    void CacheVolumesValues() {
+        curVolume = Obj.AudioManager.Call<int>("getStreamVolume", STREAM_MUSIC);
+        minVolume = Obj.AudioManager.Call<int>("getStreamMinVolume", STREAM_MUSIC);
+    }
+
+#endif
+
 }
+

@@ -1,9 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using EasyAR;
 
-public class BackgroundFrameBehaviour : MonoBehaviour {
-    public EasyAR.ImageTrackerBaseBehaviour tracker;
+public class FrameGuiBehaviour : MonoBehaviour {
+    public ImageTrackerBaseBehaviour tracker;
     public float enablingDelay = 1;
 
     private bool needShow = false;
@@ -14,15 +13,15 @@ public class BackgroundFrameBehaviour : MonoBehaviour {
         tracker.TargetUnload += Tracker_TargetUnload;
     }
 
-    private void Tracker_TargetLoad(EasyAR.ImageTrackerBaseBehaviour imgTracker, EasyAR.ImageTargetBaseBehaviour imgTarget,
-        EasyAR.Target arg3, bool arg4)
+    private void Tracker_TargetLoad(ImageTrackerBaseBehaviour imgTracker, ImageTargetBaseBehaviour imgTarget,
+        Target arg3, bool arg4)
     {
         imgTarget.TargetFound += OnMarkFound;
         imgTarget.TargetLost += OnMarkLost;
     }
 
-    private void Tracker_TargetUnload(EasyAR.ImageTrackerBaseBehaviour imgTracker, EasyAR.ImageTargetBaseBehaviour imgTarget,
-        EasyAR.Target arg3, bool arg4)
+    private void Tracker_TargetUnload(ImageTrackerBaseBehaviour imgTracker, ImageTargetBaseBehaviour imgTarget,
+        Target arg3, bool arg4)
     {
         imgTarget.TargetFound -= OnMarkFound;
         imgTarget.TargetLost -= OnMarkLost;
@@ -34,8 +33,7 @@ public class BackgroundFrameBehaviour : MonoBehaviour {
         if (tracker != null) {
             tracker.TargetLoad -= Tracker_TargetLoad;
             tracker.TargetUnload -= Tracker_TargetUnload;
-            List<EasyAR.ImageTargetBaseBehaviour> targets = tracker.LoadedTargetBehaviours;
-            foreach(var target in targets) {
+            foreach(var target in tracker.LoadedTargetBehaviours) {
                 target.TargetFound -= OnMarkFound;
                 target.TargetLost -= OnMarkLost;
             }
@@ -54,11 +52,11 @@ public class BackgroundFrameBehaviour : MonoBehaviour {
         }
     }
 
-    private void OnMarkFound(EasyAR.TargetAbstractBehaviour obj) {
+    private void OnMarkFound(TargetAbstractBehaviour obj) {
         needShow = false;
         SetChildrenActive(false);
     }
-    private void OnMarkLost(EasyAR.TargetAbstractBehaviour obj) {
+    private void OnMarkLost(TargetAbstractBehaviour obj) {
         needShow = true;
         startTime = Time.time;
     }

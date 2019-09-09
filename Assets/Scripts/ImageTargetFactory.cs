@@ -1,10 +1,9 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 public class ImageTargetFactory : MonoBehaviour {
     [System.Serializable]
-    class VideoTargetsInfo {
+    class VideoListInfo {
         [System.Serializable]
         public class VideoTargetInfo {
             [System.Serializable]
@@ -15,6 +14,7 @@ public class ImageTargetFactory : MonoBehaviour {
                 public string path = null;
                 public float[] size = null;
             }
+            
             [System.Serializable]
             public class VideoInfo {
                 public string Path { get { return path; } }
@@ -29,8 +29,10 @@ public class ImageTargetFactory : MonoBehaviour {
                 public string scale_type = null;
             }
             
+
             public TargetInfo Target { get { return target; } }
             public VideoInfo Video { get { return video; } }
+
 
             public TargetInfo target = null;
             public VideoInfo video = null;
@@ -41,7 +43,7 @@ public class ImageTargetFactory : MonoBehaviour {
 
     void Awake() {
         var json = Resources.Load<TextAsset>("ar_objects");
-        var vinfos = JsonUtility.FromJson<VideoTargetsInfo>(json.text);
+        var vinfos = JsonUtility.FromJson<VideoListInfo>(json.text);
         
         foreach(var v in vinfos.videosInfo) {
             var yavideo = new GameObject().AddComponent<ImageTargetBehaviour_YandexVideo>();

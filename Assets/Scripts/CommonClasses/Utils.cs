@@ -1,15 +1,13 @@
 ﻿using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Utils : MonoBehaviour {
     public static Utils Inst {
         get {
             if (inst == null) {
-                GameObject utilsObj = new GameObject("Utils");
-                inst = utilsObj.AddComponent<Utils>();
-                DontDestroyOnLoad(utilsObj);
+                inst = new GameObject("Utils").AddComponent<Utils>();
+                DontDestroyOnLoad(inst.gameObject);
             }
             return inst;
         }
@@ -17,16 +15,14 @@ public class Utils : MonoBehaviour {
 
     public event Action onQuit;
     
-
-    private void OnApplicationQuit() {
-        if (onQuit != null)
-            onQuit();
-    }
-
-
     public void Shedule(Action action, float seconds) {
         inst.StartCoroutine(WaitCoroutine(action, seconds));
     }
+
+    private void OnApplicationQuit() { onQuit?.Invoke(); }
+
+
+    
 
 
     private IEnumerator WaitCoroutine(Action callback, float time/*, float period = 0*/) {

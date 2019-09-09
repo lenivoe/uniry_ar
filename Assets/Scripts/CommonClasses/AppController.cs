@@ -1,47 +1,40 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections;
 using UnityEngine;
 
 public class AppController : MonoBehaviour {
-    private const float checkConnectionPeriod = 1;
+    public static AppController Inst { get; private set; } = null;
     
-    public static bool HaveInetConnection { get; private set; }
-
+    public bool HaveInetConnection { get; private set; } = false;
+    
+    
     private void Awake() {
-        if (inst == null) {
-            inst = this;
-            DontDestroyOnLoad(inst.gameObject);
-            Debug.Log("AppSettings initialized");
-        } else {
-            Debug.LogError("Using of AppSettings script from editor!! " + gameObject + " " + inst.gameObject);
-            return;
-        }
-        
+        Debug.Assert(Inst == null, "Several singleton instances: " + this + " and " + Inst);
+
+        Inst = this;
         Screen.sleepTimeout = SleepTimeout.NeverSleep; // never turn off screen
-        HaveInetConnection = false;
+        DontDestroyOnLoad(Inst.gameObject);
+
+        Debug.Log("AppSettings initialized");
     }
 
     private void Start() {
-        if(inst == this) {
-            StartCoroutine(PdfViewerCoroutine());
-            StartCoroutine(CheckConnectionCoroutine());
-        }
+        const float checkingTime = 1;
+        StartCoroutine(PdfViewerCoroutine());
+        StartCoroutine(CheckConnectionCoroutine(checkingTime));
     }
 
+    
     private IEnumerator PdfViewerCoroutine() {
         while (true) {
-            PdfViewer.MainThreadLoop();
+            PdfViewer.Inst.MainThreadLoop();
             yield return null;
         }
     }
 
-    private IEnumerator CheckConnectionCoroutine() {
+    private IEnumerator CheckConnectionCoroutine(float checkingTime) {
         while (true) {
             HaveInetConnection = (Application.internetReachability != NetworkReachability.NotReachable);
-            yield return new WaitForSecondsRealtime(checkConnectionPeriod);
+            yield return new WaitForSecondsRealtime(checkingTime);
         }
     }
-
-    private static AppController inst = null;
 }

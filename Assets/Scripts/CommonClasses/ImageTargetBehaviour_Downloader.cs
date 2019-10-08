@@ -2,6 +2,7 @@
 
 public abstract class ImageTargetBehaviour_Downloader : ImageTargetBehaviour {
     public string yandexLink;
+    public string localPath;
 
     private readonly YDownloader downloader = new YDownloader();
     private MessagerBehaviour messager = null;
@@ -33,7 +34,7 @@ public abstract class ImageTargetBehaviour_Downloader : ImageTargetBehaviour {
         }
 
         messager.SetMessege("Загрузка...", float.PositiveInfinity);
-        downloader.DownloadFileAsync(OnDownloadComplete, OnDownloadProgressChanged, yandexLink);
+        downloader.DownloadFileAsync(OnDownloadComplete, OnDownloadProgressChanged, yandexLink, localPath);
     }
 
 

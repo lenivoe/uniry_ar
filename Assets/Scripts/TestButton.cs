@@ -98,6 +98,7 @@ public class TestButton : MonoBehaviour {
 
 
     public string yandexLink;
+    public string localPath;
     public float timeout = 1;
 
     private YDownloader downloader = new YDownloader();
@@ -113,7 +114,8 @@ public class TestButton : MonoBehaviour {
 
     public void OnButtonClick() {
         messager.SetMessege("testing...", float.PositiveInfinity);
-        downloader.DownloadFileAsync(OnDownloadComplete, OnDownloadProgressChanged, yandexLink, (int)(timeout * 1000));
+        downloader.DownloadFileAsync(OnDownloadComplete, OnDownloadProgressChanged, 
+                                        yandexLink, localPath, (int)(timeout * 1000));
     }
 
     private void OnDownloadComplete(string filename, YDownloader.DownloadResult result) {

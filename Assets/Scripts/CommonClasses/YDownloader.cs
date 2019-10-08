@@ -48,6 +48,7 @@ public class YDownloader {
     public void DownloadFileAsync(Action<string, DownloadResult> onComplite,
                                   Action<string, long, long> onProgress,
                                   string link,
+                                  string localPath = "",
                                   int timeout = BASE_TIMEOUT)
     {
         Debug.Assert(m_Result == DownloadResult.NONE, "file already downloading");
@@ -61,7 +62,11 @@ public class YDownloader {
 
         Task.Factory.StartNew(() => {
             try {
-                using(var response = GetResponse(MAIN_URI + link, ref timeout)) {
+                var fulllink = MAIN_URI + link;
+                if(!string.IsNullOrEmpty(localPath)) {
+                    fulllink += "&path=%2F" + localPath;
+                }
+                using(var response = GetResponse(fulllink, ref timeout)) {
                     var dirrectLink = GetDirrectLink(response);
 
                     m_Filename = GetFilenameFromLink(dirrectLink);
